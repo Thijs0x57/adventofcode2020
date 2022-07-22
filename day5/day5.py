@@ -23,7 +23,7 @@ def main():
                 fb_min += int((fb_max-fb_min) /2)
                 if fb_max - fb_min == 1:
                     row = fb_max
-            print('fb:', fb, fb_min, fb_max)
+            print('fb:', fb, fb_min, fb_max, 'row:', row)
             
         row -= 1
         fb_max = 128
